@@ -1,0 +1,25 @@
+{
+  "name": "todolistextension-nodejs",
+  "version": "1.0.0",
+  "description": "A todo list chrome extension with nodejs backend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanTimms/TodoList-Extension.git"
+  },
+  "author": "Evan Timms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EvanTimms/TodoList-Extension/issues"
+  },
+  "homepage": "https://github.com/EvanTimms/TodoList-Extension#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.8",
+    "nodemon": "^1.17.5"
+  }
+}
